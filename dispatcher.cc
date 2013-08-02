@@ -7,8 +7,8 @@
 #include "libevent/event2/event.h"
 #include "libevent/event2/buffer.h"
 #include "libevent/event2/thread.h"
-#include "miuicloud/storage/miuistorage/http_request.h"
-#include "miuicloud/storage/miuistorage/dispatcher.h"
+#include "http_request.h"
+#include "dispatcher.h"
 
 DEFINE_int32(http_threads, 17, "Number of threads for http server.");
 
